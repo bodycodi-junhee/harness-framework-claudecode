@@ -235,9 +235,11 @@ class StepExecutor:
             sys.exit(1)
 
         prompt = preamble + step_file.read_text()
+        env = os.environ.copy()
+        env["HARNESS_AUTOMATED"] = "1"
         result = subprocess.run(
             ["claude", "-p", "--dangerously-skip-permissions", "--output-format", "json", prompt],
-            cwd=self._root, capture_output=True, text=True, timeout=1800,
+            cwd=self._root, capture_output=True, text=True, timeout=1800, env=env,
         )
 
         if result.returncode != 0:
