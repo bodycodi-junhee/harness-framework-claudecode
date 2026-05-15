@@ -1,5 +1,7 @@
 이 프로젝트의 변경 사항을 리뷰하라.
 
+> **Deprecation 안내**: 신규 호출은 `/bodycodi-harness:review` (plugin skill) 권장. 이 명령은 v1까지 호환 유지.
+
 먼저 다음 문서들을 읽어라:
 - `/CLAUDE.md`
 - `/docs/ARCHITECTURE.md`

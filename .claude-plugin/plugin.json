@@ -1,0 +1,17 @@
+{
+  "name": "bodycodi-harness",
+  "version": "0.1.0",
+  "description": "Phased TDD workflow for Claude Code — deep-interview, step orchestration, code review, project init.",
+  "author": {
+    "name": "bodycodi-junhee"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "harness",
+    "tdd",
+    "phased-workflow",
+    "deep-interview"
+  ],
+  "skills": "./skills/"
+}

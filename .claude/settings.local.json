@@ -6,7 +6,8 @@
       "Read(//Users/junehee/june/tech/harness-tech/**)",
       "Bash(cp /Users/junehee/june/tech/harness-tech/harness-framework-claudecode/.claude/commands/harness.md ~/.claude/commands/harness.md)",
       "Bash(cp /Users/junehee/june/tech/harness-tech/harness-framework-claudecode/.claude/commands/review.md ~/.claude/commands/review.md)",
-      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/junehee/.claude/settings.json'\\)\\); print\\('deny:', d['permissions']['deny']\\); print\\('hooks keys:', list\\(d['hooks'].keys\\(\\)\\)\\)\")"
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/junehee/.claude/settings.json'\\)\\); print\\('deny:', d['permissions']['deny']\\); print\\('hooks keys:', list\\(d['hooks'].keys\\(\\)\\)\\)\")",
+      "Read(//Users/ijunhui/.claude/commands/**)"
     ]
   }
 }

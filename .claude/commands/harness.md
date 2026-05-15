@@ -1,5 +1,7 @@
 이 프로젝트는 Harness 프레임워크를 사용한다. 아래 워크플로우에 따라 작업을 진행하라.
 
+> **Deprecation 안내**: 신규 호출은 `/bodycodi-harness:start <task-name>` (plugin skill) 권장. 이 명령은 v1까지 호환 유지.
+
 ---
 
 ## 문제해결 5단계 접근법

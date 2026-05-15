@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bodycodi-harness-marketplace",
+  "description": "Bodycodi Harness framework for Claude Code — phased TDD workflow plugin.",
+  "owner": {
+    "name": "bodycodi"
+  },
+  "plugins": [
+    {
+      "name": "bodycodi-harness",
+      "description": "Phased TDD workflow with deep-interview, step orchestration, code review, and project initialization.",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "harness",
+        "tdd",
+        "phased-workflow",
+        "deep-interview"
+      ]
+    }
+  ],
+  "version": "0.1.0"
+}
